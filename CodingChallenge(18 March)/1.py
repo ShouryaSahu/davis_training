@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOOk/Lbn4ejJ5junfSAV6vl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ShouryaSahu/davis_training/blob/main/CodingChallenge(18%20March)/1.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ovfWo0qWIBe3",
+        "outputId": "eb7d722c-7353-45a2-e322-a3dd740e9abe"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter price: 500\n",
+            "Enter discount percentage: 25\n",
+            "Final price after discount: 375.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Program to calculate final price after discount\n",
+        "\n",
+        "# Taking input from user\n",
+        "price = float(input(\"Enter price: \"))\n",
+        "discount = float(input(\"Enter discount percentage: \"))\n",
+        "\n",
+        "# Calculating discount amount\n",
+        "discount_amount = (price * discount) / 100\n",
+        "\n",
+        "# Final price after discount\n",
+        "final_price = price - discount_amount\n",
+        "\n",
+        "# Output\n",
+        "print(\"Final price after discount:\", final_price)"
+      ]
+    }
+  ]
+}
